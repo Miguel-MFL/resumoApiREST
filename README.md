@@ -1,16 +1,16 @@
-#resumo sobre Api Rest e a implementação RESTFul além dos verbos http e http status code.
+# resumo sobre Api Rest e a implementação RESTFul além dos verbos http e http status code.
 
 #Api REST e RESTFul
 
 #Uma API RESTful é um conjunto de regras e ferramentas que permite a comunicação entre sistemas de forma consistente. Seguindo os princípios do REST, utiliza métodos HTTP como GET, POST, PUT e DELETE para operar em recursos através de URLs definidas. Sua característica fundamental é a ausência de estado, tornando cada requisição independente e autocontida, o que possibilita alta escalabilidade. Para criar uma API assim, é crucial projetar endpoints claros, oferecer respostas consistentes em formatos como JSON ou XML, e providenciar documentação detalhada e exemplos para facilitar o uso por parte dos desenvolvedores. Em resumo, uma API RESTful é uma interface de comunicação entre sistemas que segue os princípios do REST, sendo consistente, escalável e de fácil utilização para integrar aplicações e trocar dados de forma padronizada e eficiente.
 
-#Diferenças entre REST e RESTFul
+# Diferenças entre REST e RESTFul
 
 #REST é um estilo arquitetural que define princípios para serviços web, incluindo recursos, URLs únicas para identificar recursos, operações HTTP (GET, POST, PUT, DELETE), uso de hypermedia (HATEOAS) e a ideia de ser stateless, sem manter estado entre requisições.
 
 Por outro lado, "RESTful" descreve uma implementação ou serviço que adere aos princípios do REST. Em suma, algo é chamado de RESTful quando segue as diretrizes e práticas definidas pelo REST, incluindo métodos HTTP adequados, URLs bem definidas e a ausência de estado na comunicação entre cliente e servidor
 
-#HTTP verbs
+# HTTP verbs
 
 #DELETE: Remove um recurso específico conforme identificado pela URL.
 
@@ -28,7 +28,7 @@ POST: Utilizado para enviar dados para um recurso a fim de criar ou atualizar su
 
 PUT: Serve para atualizar um recurso específico, geralmente especificado pela URL. Ele envia a representação atualizada do recurso, e se o recurso não existir, pode criar um novo recurso com o conteúdo enviado.
 
-#HTTP Status Code
+# HTTP Status Code
 
 #Os códigos de status HTTP são indicadores numéricos fornecidos em respostas de requisições feitas a servidores web. Eles fornecem informações sobre o estado da requisição e são divididos em cinco categorias principais:
 
